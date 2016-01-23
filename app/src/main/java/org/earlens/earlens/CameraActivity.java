@@ -1,6 +1,5 @@
 package org.earlens.earlens;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.hardware.Camera;
 import android.widget.FrameLayout;
@@ -8,7 +7,7 @@ import android.widget.FrameLayout;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class CameraActivity extends Activity {
+public class CameraActivity extends BaseSensorManager {
 
     private Camera mCamera;
     private CameraPreview mPreview;
@@ -29,9 +28,6 @@ public class CameraActivity extends Activity {
         FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
         preview.addView(mPreview);
 
-//        Intent i = new Intent(getApplicationContext(), TypingActivity.class);
-//        startActivity(i);
-
     }
 
     public static Camera getCameraInstance(){
@@ -44,4 +40,5 @@ public class CameraActivity extends Activity {
         }
         return c; // returns null if camera is unavailable
     }
+
 }

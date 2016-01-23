@@ -3,6 +3,9 @@
 
     <string name="app_name">EarLens</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_typing">Type An Answer</string>
+    <string name="edit_message">Enter a message...</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_typing_acrivity">Type a Message</string>
 
 </resources>
