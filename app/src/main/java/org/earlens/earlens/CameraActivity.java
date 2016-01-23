@@ -33,13 +33,8 @@ public class CameraActivity extends Activity {
         FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
         preview.addView(mPreview);
 
-        final Button button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), TypingActivity.class);
-                startActivity(i);
-            }
-        });
+//        Intent i = new Intent(getApplicationContext(), TypingActivity.class);
+//        startActivity(i);
 
     }
 

@@ -9,12 +9,5 @@
         android:layout_height="fill_parent"
         android:layout_weight="1"
         >
-
-        <Button
-            android:layout_width="145dp"
-            android:layout_height="137dp"
-            android:text="Random Button"
-            android:id="@+id/button"
-            android:layout_gravity="center_horizontal|bottom" />
     </FrameLayout>
 </LinearLayout>
