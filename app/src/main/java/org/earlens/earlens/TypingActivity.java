@@ -10,7 +10,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
+<<<<<<< Updated upstream
 import org.w3c.dom.Text;
+=======
+public class TypingActivity extends BaseSensorAppCompatManager {
+>>>>>>> Stashed changes
 
 import java.util.Locale;
 

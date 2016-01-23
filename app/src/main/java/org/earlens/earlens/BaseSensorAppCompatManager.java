@@ -1,6 +1,6 @@
 package org.earlens.earlens;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.content.Context;
 import android.os.Bundle;
 
@@ -15,7 +15,7 @@ import android.content.Intent;
 
 import android.util.Log;
 
-public class BaseSensorManager extends Activity implements SensorEventListener {
+public class BaseSensorAppCompatManager extends AppCompatActivity implements SensorEventListener {
 
     private static final String TAG = "EarLens";
 
