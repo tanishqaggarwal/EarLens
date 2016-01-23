@@ -137,7 +137,7 @@ public class BaseSensorManager extends Activity implements SensorEventListener {
         float roll = orientation[1];
         int rollDeg = (int) Math.round(Math.toDegrees(roll));
         int power = degreesToPower(rollDeg);
-        if (power > 80) {
+        if (power > 50) {
             Intent i = new Intent(getApplicationContext(), switchclass);
             startActivity(i);
         }
