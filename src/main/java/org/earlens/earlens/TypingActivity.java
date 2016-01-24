@@ -75,6 +75,7 @@ public class TypingActivity extends AppCompatActivity implements TextToSpeech.On
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
         tts.speak(message, TextToSpeech.QUEUE_FLUSH, null);
+        ((EditText) findViewById(R.id.edit_message)).setText("");
         out.println(message);
     }
 

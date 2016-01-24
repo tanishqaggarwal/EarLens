@@ -4,7 +4,7 @@ package org.earlens.earlens;
  * General constants.
  */
 public class Constants {
-    public static final String CLIENT_ID = "yGBeSy9oIxTpf-KySPW-MA==";
-    public static final String CLIENT_KEY = "Bv6OhSVmKq3ITijbG8ITISLB6Y6xCwaiELmBwQCpoYQZw4U4BNJ5ZzK9ThbAebvASefsPEe4SjMXKygdk-xilg==";
+    public static final String CLIENT_ID = "RTlnHkmr8bG2MVcEVVbY1g==";
+    public static final String CLIENT_KEY = "K2HvqSrv5ovkH-Ni3TJSQf3gO-KUwd5DXlWX7bRetwFsaMuLEc0TXbUXS5Dovk9IDX7VsPfpRWBavXm5dWns9g==";
 
 }

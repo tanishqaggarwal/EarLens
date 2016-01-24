@@ -62,7 +62,7 @@ public class CameraActivity extends BaseSensorManager implements SurfaceHolder.C
                 Log.d("CameraActivity", "FOUND FACE 1 AT LEFT = " + left + " RIGHT = " + right + " TOP = " + top + " BOTTOM = " + bottom);
                 FrameLayout bubble = (FrameLayout) findViewById(R.id.speech_bubble);
                 LayoutParams layoutParams = new LayoutParams(bubble.getWidth(), bubble.getHeight());
-                layoutParams.setMargins(-top + 100, left + 500, 0, 0);
+                layoutParams.setMargins(-top, left + 500, 0, 0);
                 bubble.setLayoutParams(layoutParams);
             }
         }
