@@ -86,8 +86,8 @@ public final class R {
 		public static final int houndify_stop = 0x7f060001;
 	}
 	public static final class string {
-		public static final int houndify_search_recognizing = 0x7f07003b;
-		public static final int houndify_search_speak_now = 0x7f07003c;
+		public static final int houndify_search_recognizing = 0x7f07003a;
+		public static final int houndify_search_speak_now = 0x7f07003b;
 	}
 	public static final class style {
 		public static final int houndify_Houndify = 0x7f0a0149;

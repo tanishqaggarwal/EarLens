@@ -136,6 +136,7 @@ public class BaseSensorManager extends Activity implements SensorEventListener {
         if (power > 75) {
             Intent i = new Intent(getApplicationContext(), switchclass);
             startActivity(i);
+            finish();
         }
     }
 

@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="org.earlens.earlens.TypingActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/exit"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="Exit"
         app:showAsAction="never" />
 </menu>
 <!-- From: file:/C:/Users/mvgomez/Desktop/EarLens/src/main/res/menu/menu_typing.xml -->

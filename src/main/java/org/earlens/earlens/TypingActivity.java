@@ -19,6 +19,8 @@ import android.widget.EditText;
 
 import java.util.Locale;
 
+import static java.lang.System.*;
+
 public class TypingActivity extends AppCompatActivity implements TextToSpeech.OnInitListener, SensorEventListener {
 
     private static final String TAG = "EarLens";
@@ -58,8 +60,12 @@ public class TypingActivity extends AppCompatActivity implements TextToSpeech.On
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.exit) {
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_HOME);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);
@@ -69,7 +75,7 @@ public class TypingActivity extends AppCompatActivity implements TextToSpeech.On
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
         tts.speak(message, TextToSpeech.QUEUE_FLUSH, null);
-        System.out.println(message);
+        out.println(message);
     }
 
     @Override
@@ -189,9 +195,11 @@ public class TypingActivity extends AppCompatActivity implements TextToSpeech.On
         if (power < 75) {
             Intent i = new Intent(getApplicationContext(), switchclass);
             startActivity(i);
+            finish();
         }
     }
 
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {}
+
 }

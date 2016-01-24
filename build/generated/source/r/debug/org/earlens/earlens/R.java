@@ -2386,7 +2386,6 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d0059;
         public static final int action_mode_bar_stub=0x7f0d0058;
         public static final int action_mode_close_button=0x7f0d003e;
-        public static final int action_settings=0x7f0d0090;
         public static final int activity_chooser_view_content=0x7f0d003f;
         public static final int adjust_height=0x7f0d0032;
         public static final int adjust_width=0x7f0d0033;
@@ -2424,6 +2423,7 @@ containing a value of this type.
         public static final int end_padder=0x7f0d008d;
         public static final int enterAlways=0x7f0d0015;
         public static final int enterAlwaysCollapsed=0x7f0d0016;
+        public static final int exit=0x7f0d0090;
         public static final int exitUntilCollapsed=0x7f0d0017;
         public static final int expand_activities_button=0x7f0d0040;
         public static final int expanded_menu=0x7f0d0053;
@@ -2618,13 +2618,12 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f070010;
         public static final int abc_shareactionprovider_share_with_application=0x7f070011;
         public static final int abc_toolbar_collapse_description=0x7f070012;
-        public static final int action_settings=0x7f070032;
-        public static final int app_name=0x7f070033;
-        public static final int appbar_scrolling_view_behavior=0x7f070034;
-        public static final int auth_google_play_services_client_facebook_display_name=0x7f070035;
-        public static final int auth_google_play_services_client_google_display_name=0x7f070036;
-        public static final int button_send=0x7f070037;
-        public static final int character_counter_pattern=0x7f070038;
+        public static final int app_name=0x7f070032;
+        public static final int appbar_scrolling_view_behavior=0x7f070033;
+        public static final int auth_google_play_services_client_facebook_display_name=0x7f070034;
+        public static final int auth_google_play_services_client_google_display_name=0x7f070035;
+        public static final int button_send=0x7f070036;
+        public static final int character_counter_pattern=0x7f070037;
         public static final int common_android_wear_notification_needs_update_text=0x7f070013;
         public static final int common_android_wear_update_text=0x7f070014;
         public static final int common_android_wear_update_title=0x7f070015;
@@ -2655,12 +2654,11 @@ containing a value of this type.
         public static final int common_google_play_services_updating_text=0x7f07002e;
         public static final int common_google_play_services_updating_title=0x7f07002f;
         public static final int common_open_on_phone=0x7f070030;
-        public static final int edit_message=0x7f070039;
-        public static final int hello_world=0x7f07003a;
-        public static final int houndify_search_recognizing=0x7f07003b;
-        public static final int houndify_search_speak_now=0x7f07003c;
+        public static final int edit_message=0x7f070038;
+        public static final int hello_world=0x7f070039;
+        public static final int houndify_search_recognizing=0x7f07003a;
+        public static final int houndify_search_speak_now=0x7f07003b;
         public static final int status_bar_notification_info_overflow=0x7f070031;
-        public static final int title_activity_typing_acrivity=0x7f07003d;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0a007f;
