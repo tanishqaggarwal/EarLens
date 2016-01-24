@@ -377,7 +377,7 @@
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <!-- From: file:/C:/Users/mvgomez/Desktop/EarLens/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="button_send">Send</string>
+    <string name="button_send">Speak</string>
     <!-- From: file:/C:/Users/mvgomez/Desktop/EarLens/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml -->
     <eat-comment/>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
