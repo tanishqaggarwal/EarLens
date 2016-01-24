@@ -1,10 +1,12 @@
 package org.earlens.earlens;
 
+import android.app.Activity;
 import android.hardware.Camera;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.content.Context;
 import android.util.Log;
+import android.hardware.Camera.FaceDetectionListener;
 
 import java.io.*;
 /**
@@ -23,7 +25,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         // underlying surface is created and destroyed.
         mHolder = getHolder();
         mHolder.addCallback(this);
-        mCamera.setFaceDetectionListener(new MyFaceDetectionListener());
+        mCamera.setFaceDetectionListener((FaceDetectionListener) context);
         // deprecated setting, but required on Android versions prior to 3.0
         mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
     }
