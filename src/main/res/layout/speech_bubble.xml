@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/speech_bubble"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/speech_bubble_orange"
+        android:shadowColor="@color/textShadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="Listening..."
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:layout_gravity="center" />
+
+</FrameLayout>

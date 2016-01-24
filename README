@@ -1,0 +1,45 @@
+ANDROID HOUND SDK SAMPLE PROJECT
+
+VERSION: 0.2.0
+
+PREREQUISITES
+ -JDK 7+
+ -Android SDK
+
+BUILDING
+
+Run: ./gradlew assembleDebug
+
+WHAT THE SAMPLE DOES
+
+Showcases the JSON returned from the server from a voice query including partial transcripts and conversation state handling.
+
+WHAT THE SAMPLE DOESN'T DO
+
+You will need to specify a valid client id and client key for testing or else the server will reject all your queries.
+
+SAMPLE SETUP
+1. You need to set your Houndify account's login and password so that the sample build can pull down the Houndify client SDK jars down from the SoundHound Maven repository.
+   These can either be set in the houndify.properties file (be careful not to check this in to source control if you don't want to share this info), or you create and set the following
+   environment variables HOUNDIFY_USERNAME and HOUNDIFY_PASSWORD.
+
+2. Next, you need to set your Houndify CLIENT_ID and CLIENT_KEY values in the Constants.java file inside the src directory.
+
+
+
+CHANGE LOG
+
+0.2.0
+ -Changed the Hound SDK and phrase spotter to be an external maven dependency.  Note to access the repo you will need your houndify username and password.
+ -Switched from using JSONObject to use JsonNode.  This is a breaking change.
+ -Included a new "HoundMapper" that can be used to convert between JsonNodes and model objects.
+
+0.0.9
+ -Added support for "OK Hound" support using the phrase spotter library and example of how to use it.
+
+0.0.8
+ -Added support for client matches in the HoundRequestInfo.  See the houndify documentation for more information.
+
+0.0.7
+ -VoiceSearch.Builder#setAudioSource now accepts an InputStream instead of a AudioByteStreamSource.  The SimpleAudioByteStreamSource class
+  has been updated and now extends InputStream instead.
