@@ -8,4 +8,4 @@
         android:title="@string/action_settings"
         app:showAsAction="never" />
 </menu>
-<!-- From: file:/C:/Users/mvgomez/Desktop/hound-sdk-sample-0.2.15/src/main/res/menu/menu_typing.xml -->
+<!-- From: file:/C:/Users/mvgomez/Desktop/EarLens/src/main/res/menu/menu_typing.xml -->

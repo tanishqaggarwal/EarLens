@@ -11,4 +11,4 @@
     android:fontFamily="sans-serif-light"/>
 
     <!-- this bottom padding is an arbitrarily large amount needed to enable scrolling behavior in some
-         cases for the ScrollingTranscriptionView --><!-- From: file:/melodis/jenkins/workspace/hound-sdk-android-trunk-push/houndify_sdk_libraries/hound_sdk/src/main/res/layout/houndify_view_scrolling_transcription_text.xml --><!-- From: file:/C:/Users/mvgomez/Desktop/hound-sdk-sample-0.2.15/build/intermediates/exploded-aar/hound.android/hound-sdk/0.2.15/res/layout/houndify_view_scrolling_transcription_text.xml -->
+         cases for the ScrollingTranscriptionView --><!-- From: file:/melodis/jenkins/workspace/hound-sdk-android-trunk-push/houndify_sdk_libraries/hound_sdk/src/main/res/layout/houndify_view_scrolling_transcription_text.xml --><!-- From: file:/C:/Users/mvgomez/Desktop/EarLens/build/intermediates/exploded-aar/hound.android/hound-sdk/0.2.15/res/layout/houndify_view_scrolling_transcription_text.xml -->

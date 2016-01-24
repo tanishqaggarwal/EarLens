@@ -62,7 +62,7 @@ public class CameraActivity extends BaseSensorManager implements SurfaceHolder.C
                 Log.d("CameraActivity", "FOUND FACE 1 AT LEFT = " + left + " RIGHT = " + right + " TOP = " + top + " BOTTOM = " + bottom);
                 FrameLayout bubble = (FrameLayout) findViewById(R.id.speech_bubble);
                 LayoutParams layoutParams = new LayoutParams(bubble.getWidth(), bubble.getHeight());
-                layoutParams.setMargins(-top + 600, left + 600, 0, 0);
+                layoutParams.setMargins(-top + 100, left + 500, 0, 0);
                 bubble.setLayoutParams(layoutParams);
             }
         }
@@ -142,6 +142,7 @@ public class CameraActivity extends BaseSensorManager implements SurfaceHolder.C
     public void onStop() {
         super.onStop();
         if (voiceSearch != null) {
+            Log.d("BING", "onStop ABORT!!!");
             voiceSearch.abort();
         }
     }
@@ -149,6 +150,7 @@ public class CameraActivity extends BaseSensorManager implements SurfaceHolder.C
     public void onPause() {
         super.onPause();
         if (voiceSearch != null) {
+            Log.d("BING", "onPause ABORT!!!");
             voiceSearch.abort();
         }
     }
@@ -174,7 +176,7 @@ public class CameraActivity extends BaseSensorManager implements SurfaceHolder.C
 
     private void startSearch() {
         if (voiceSearch != null) {
-            voiceSearch.abort();
+            return;
         }
 
         setProgressBarIndeterminateVisibility(true);
@@ -191,10 +193,6 @@ public class CameraActivity extends BaseSensorManager implements SurfaceHolder.C
         voiceSearch.start();
     }
 
-    private void resetUIState() {
-        setProgressBarIndeterminateVisibility(false);
-    }
-
     private final VoiceSearchListener voiceListener = new VoiceSearchListener() {
         @Override
         public void onTranscriptionUpdate(final PartialTranscript transcript) {
@@ -204,8 +202,7 @@ public class CameraActivity extends BaseSensorManager implements SurfaceHolder.C
 
         @Override
         public void onResponse(final HoundResponse response, final VoiceSearchInfo info) {
-//            voiceSearch = null;
-//            resetUIState();
+            voiceSearch = null;
 //
 //            if (!response.getResults().isEmpty()) {
 //                // Save off the conversation state.  This information will be returned to the server
@@ -236,7 +233,7 @@ public class CameraActivity extends BaseSensorManager implements SurfaceHolder.C
 
         @Override
         public void onError(final Exception ex, final VoiceSearchInfo info) {
-            resetUIState();
+            voiceSearch = null;
             textView.setText(exceptionToString(ex));
         }
 
@@ -248,7 +245,6 @@ public class CameraActivity extends BaseSensorManager implements SurfaceHolder.C
         @Override
         public void onAbort(final VoiceSearchInfo info) {
             voiceSearch = null;
-            resetUIState();
         }
     };
 

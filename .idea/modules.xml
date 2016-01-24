@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hound-sdk-sample-0.2.15.iml" filepath="$PROJECT_DIR$/hound-sdk-sample-0.2.15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EarLens.iml" filepath="$PROJECT_DIR$/EarLens.iml" />
     </modules>
   </component>
 </project>

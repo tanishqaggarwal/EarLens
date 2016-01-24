@@ -2,144 +2,144 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\classes-550ac66c3093d518da325b65fef4cfe0eed4661e.jar" />
-    </item>
-    <item
-        jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.4.0\1e33fd4cca6c4a9bf3d2f638cabb504a5b5c989d\jackson-core-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1e33fd4cca6c4a9bf3d2f638cabb504a5b5c989d">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\jackson-core-2.4.0-7bab1706b45b41d2986f26d91277201f785be696.jar" />
-    </item>
-    <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\soundhound.android\speex\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6de73f4fe9cb23e03d2baed8b5586ea4e1fa45eb">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\classes-5c1e0ff2265b3c92d70276a76afcff2a4166b629.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-03798d6e27efb4f6ee9dfb3f2f9505366259f729.jar" />
     </item>
     <item
         jar="C:\Users\mvgomez\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-67fcd8c49c25a65281a4b4e101218ba4f454a5c5.jar" />
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-67fcd8c49c25a65281a4b4e101218ba4f454a5c5.jar" />
     </item>
     <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\hound.android\phrasespotter\1.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="33738b1cf00a75c1f505003712064d3ddfcd158e">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\classes-c0545bb6021d1b951a12695f9d92b44176d9d1b6.jar" />
-    </item>
-    <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\classes-7117abdeba6b4d239c2b9f2135f97cc6b73ddf6d.jar" />
-    </item>
-    <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\soundhound.android\vad\1.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5c04c0a9a236a8e0ce12bf684fd62ba601174603">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\classes-d2e4521effd80d86c029a6307f141b58fad9ff2a.jar" />
-    </item>
-    <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\classes-d472a7585640ae097a0f65446927f265a0c365c7.jar" />
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\classes-8a5dfce9fae66f5111f7fce5eb9cc3f69b7491c3.jar" />
     </item>
     <item
-        jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\httpclient-android-4.3.5.1-c3b291d1fcf3bd0112c6748ca378c7cf43352149.jar" />
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\classes-ed5fd5e755e522f66395e276ffa415a16c6b88bf.jar" />
     </item>
     <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\classes-0e9128e31490eaa028e7252fcc04a20f34772670.jar" />
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\classes-3ca9d8aa5ac9618221738dc0120d02edd70d73f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\soundhound.android\vad\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c04c0a9a236a8e0ce12bf684fd62ba601174603">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\classes-50fb01881aea5933b2aa460338c1faea1409ad48.jar" />
     </item>
     <item
         jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.4.0\5b72bf48563ea8410e650de14aa33ff69a3e8c35\okio-1.4.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\okio-1.4.0-09cdddeaa5e9eb936b925c7afb8c31fc8f6bfe1f.jar" />
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\okio-1.4.0-09cdddeaa5e9eb936b925c7afb8c31fc8f6bfe1f.jar" />
+    </item>
+    <item
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\hound.android\hound-sdk\0.2.15\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7b10f2bd9c5cf76dd93b7af0dc07551621f29d71">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\classes-a763f3cee5e38bce12d30458a0000674cbe746d7.jar" />
     </item>
     <item
         jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.4.0\d6a66c7a5f01cf500377bd669507a08cfeba882a\jackson-annotations-2.4.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="d6a66c7a5f01cf500377bd669507a08cfeba882a">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\jackson-annotations-2.4.0-f4bc14368d719281e0b3bc32dea5ef09ddafd4a1.jar" />
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\jackson-annotations-2.4.0-f4bc14368d719281e0b3bc32dea5ef09ddafd4a1.jar" />
     </item>
     <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\hound.android\phrasespotter\1.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="33738b1cf00a75c1f505003712064d3ddfcd158e">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\classes-1108a4e98680ffb200854b3dfc8cba5a67f0a7bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\classes-a12b9812bfc048cc12112ea7d1b3066c98d9d1f3.jar" />
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\classes-3e76a189be5f3adaf9712740a4406ee561c13db0.jar" />
     </item>
     <item
-        jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\com.koushikdutta.async\androidasync\2.1.2\38ff23022839229e8923a7b2d4ec6650aa338513\androidasync-2.1.2.jar"
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="38ff23022839229e8923a7b2d4ec6650aa338513">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\androidasync-2.1.2-f9370c2a2cff2b95670cd2198c916c504ec9bfc2.jar" />
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\classes-248635a88d1e29f1cd7575660db5685aeae49a66.jar" />
     </item>
     <item
-        jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
+        jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\okhttp-2.4.0-b3a84570ab88af1546a14fb411198cd2cf49bc06.jar" />
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\httpclient-android-4.3.5.1-c3b291d1fcf3bd0112c6748ca378c7cf43352149.jar" />
     </item>
     <item
         jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.4.0\473e063d6396a1ff6e4b9c7943e604291ce18b07\jackson-databind-2.4.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="473e063d6396a1ff6e4b9c7943e604291ce18b07">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\jackson-databind-2.4.0-392a7d84d1ee6d7816eee63f43bc38733c8f3b07.jar" />
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\jackson-databind-2.4.0-392a7d84d1ee6d7816eee63f43bc38733c8f3b07.jar" />
+    </item>
+    <item
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\soundhound.android\speex\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6de73f4fe9cb23e03d2baed8b5586ea4e1fa45eb">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\classes-c25d8ad95c6e26632af947870a33f7688c09e95c.jar" />
+    </item>
+    <item
+        jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.4.0\1e33fd4cca6c4a9bf3d2f638cabb504a5b5c989d\jackson-core-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1e33fd4cca6c4a9bf3d2f638cabb504a5b5c989d">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\jackson-core-2.4.0-7bab1706b45b41d2986f26d91277201f785be696.jar" />
+    </item>
+    <item
+        jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\com.koushikdutta.async\androidasync\2.1.2\38ff23022839229e8923a7b2d4ec6650aa338513\androidasync-2.1.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="38ff23022839229e8923a7b2d4ec6650aa338513">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\androidasync-2.1.2-f9370c2a2cff2b95670cd2198c916c504ec9bfc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\classes-bbabe8469e3092d169bb7fba846f9cb26df6f5a4.jar" />
     </item>
     <item
         jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\hound.android\java-utils\1.0.0\3d712040e34d671352b908c204f7a256ac25e466\java-utils-1.0.0.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="3d712040e34d671352b908c204f7a256ac25e466">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\java-utils-1.0.0-292fe178918670883f202fe4497549814f4d124d.jar" />
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\java-utils-1.0.0-292fe178918670883f202fe4497549814f4d124d.jar" />
     </item>
     <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jar="C:\Users\mvgomez\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-e15e792369f41e7ee2f68196c8dc67830fbf347c.jar" />
-    </item>
-    <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\hound.android\hound-sdk\0.2.15\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="7b10f2bd9c5cf76dd93b7af0dc07551621f29d71">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\classes-20fc746d9accb24038edad6520af513ac578e982.jar" />
-    </item>
-    <item
-        jar="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="C:\Users\mvgomez\Desktop\hound-sdk-sample-0.2.15\build\intermediates\pre-dexed\debug\classes-5427e91c012da7ea3abca60d7781d4248268db7e.jar" />
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="C:\Users\mvgomez\Desktop\EarLens\build\intermediates\pre-dexed\debug\okhttp-2.4.0-b3a84570ab88af1546a14fb411198cd2cf49bc06.jar" />
     </item>
 
 </items>
