@@ -2,7 +2,10 @@ package org.earlens.earlens;
 
 import android.os.Bundle;
 import android.hardware.Camera;
+import android.text.Layout;
 import android.util.Log;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -14,12 +17,17 @@ import android.view.LayoutInflater;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class CameraActivity extends BaseSensorManager implements Camera.FaceDetectionListener {
+import android.view.ViewGroup.LayoutParams;
 
-    private String TAG = "EarLens";
+import java.io.IOException;
 
-    private Camera mCamera;
-    private CameraPreview mPreview;
+public class CameraActivity extends BaseSensorManager implements SurfaceHolder.Callback{
+
+    Camera camera;
+    SurfaceView surfaceView;
+    SurfaceHolder surfaceHolder;
+    LayoutInflater textInflator = null;
+    boolean previewing = false;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -29,46 +37,24 @@ public class CameraActivity extends BaseSensorManager implements Camera.FaceDete
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_camera);
 
-        ViewGroup mFrameLayout;
-        mFrameLayout = (ViewGroup) findViewById(R.id.camera_preview);
-        assert mFrameLayout != null;
-        LinearLayout bubble = (LinearLayout) LayoutInflater.from(this).inflate(R.layout.speech_bubble, mFrameLayout, false);
-        assert bubble != null;
+        surfaceView = (SurfaceView) findViewById(R.id.camera_preview);
+        surfaceHolder = surfaceView.getHolder();
+        surfaceHolder.addCallback(this);
+        surfaceHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 
-        TextView message_bubble = (TextView) bubble.findViewById(R.id.message_text);
-        assert message_bubble != null;
-        message_bubble.setText("This fucker was found!");
-        ((ViewGroup)message_bubble.getParent()).removeView(message_bubble);
-        message_bubble.setX(0);
-        message_bubble.setY(0);
-        mFrameLayout.addView(message_bubble);
-        //message_bubble.setVisibility(View.INVISIBLE);
-        //Set to zero
-
-        // Create an instance of Camera
-        mCamera = getCameraInstance();
-
-        // Create our Preview view and set it as the content of our activity.
-        mPreview = new CameraPreview(this, mCamera);
-        mFrameLayout.addView(mPreview);
+        textInflator = LayoutInflater.from(getBaseContext());
+        View textView = textInflator.inflate(R.layout.speech_bubble, null);
+        LayoutParams layoutParams = new LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT);
+        this.addContentView(textView, layoutParams);
     }
 
-    public static Camera getCameraInstance(){
-        Camera c = null;
-        try {
-            c = Camera.open(); // attempt to get a Camera instance
-        }
-        catch (Exception e){
-            // Camera is not available (in use or does not exist)
-        }
-        return c; // returns null if camera is unavailable
-    }
+
 
     public void onFaceDetection(Camera.Face[] faces, Camera camera) {
         if (faces.length > 0) {
             float x = faces[0].rect.centerX();
             float y = faces[0].rect.centerY();
-            Log.d(TAG, "FOUND FACE 1 AT X = " + x + " AND Y = " + y);
+            Log.d("CameraActivity", "FOUND FACE 1 AT X = " + x + " AND Y = " + y);
             findViewById(R.id.message_text).setX(x - 100);
             findViewById(R.id.message_text).setY(y - 150);
             findViewById(R.id.message_text).setVisibility(View.VISIBLE);
@@ -76,4 +62,34 @@ public class CameraActivity extends BaseSensorManager implements Camera.FaceDete
     }
 
 
+    @Override
+    public void surfaceCreated(SurfaceHolder holder) {
+        camera = Camera.open();
+    }
+
+    @Override
+    public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
+        if (previewing) {
+            camera.stopPreview();
+            previewing = false;
+        }
+        if (camera != null) {
+            try {
+                camera.setPreviewDisplay(surfaceHolder);
+                camera.startPreview();
+                previewing = true;
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+    }
+
+    @Override
+    public void surfaceDestroyed(SurfaceHolder holder) {
+        camera.stopPreview();
+        camera.release();
+        camera = null;
+        previewing = false;
+    }
 }
